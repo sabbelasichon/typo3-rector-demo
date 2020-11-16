@@ -1,0 +1,26 @@
+{
+  "name": "ssch/legacy-extension",
+  "version": "1.0.0",
+  "type": "typo3-cms-extension",
+  "description": "A legacy extension",
+  "authors": [
+    {
+      "name": "Sebastian Schreiber",
+      "role": "Developer"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "replace": {
+    "legacy_extension": "self.version"
+  },
+  "require": {
+    "typo3/cms-core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ssch\\LegacyExtension\\": "Classes"
+    }
+  }
+}

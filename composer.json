@@ -1,0 +1,29 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/*"
+        }
+    ],
+    "name": "schreibersebastian/typo3-rector-demo",
+    "description": "Demo for typo3-rector",
+    "type": "project",
+    "require": {
+        "typo3/minimal": "^9.0",
+        "ssch/legacy-extension": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Schreiber",
+            "email": "breakpoint@schreibersebastian.de"
+        }
+    ],
+    "extra": {
+        "typo3/cms": {
+            "web-dir": "public"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
