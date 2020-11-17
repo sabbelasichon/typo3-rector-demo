@@ -25,5 +25,8 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "ssch/typo3-rector": "^0.6.0"
+    }
 }
