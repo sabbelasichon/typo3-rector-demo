@@ -21,6 +21,6 @@ final class BackendController extends ActionController
 {
     public function singleAction(): void
     {
-        $pathToFile = PATH_site . '/foo/bar/baz.txt';
+        $pathToFile = PATH_site . 'foo/bar/baz.txt';
     }
 }
