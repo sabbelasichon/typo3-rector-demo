@@ -19,15 +19,11 @@ use TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController;
 
 final class PluginController extends ActionController
 {
-    public function singleAction(): void
+    public function someAction(): void
     {
         $this->view->assign('isLoggedIn', $this->getTypoScriptFrontendController()->loginUser);
-
-        if(GeneralUtility::getApplicationContext()->isDevelopment()) {
-            $this->view->assign('inDevelopmentMode', true);
-        }
-
-        $this->view->assign('language', $this->getTypoScriptFrontendController()->sys_language_uid);
+        $this->view->assign('inDevelopmentMode', GeneralUtility::getApplicationContext()->isDevelopment());
+        $this->view->assign('language', $GLOBALS['TSFE']->sys_language_uid);
 
         $pageRenderer = GeneralUtility::makeInstance(PageRenderer::class);
         $pageRenderer->addMetaTag('<meta name="keywords" content="seo, search engine optimisation, search engine optimization, search engine ranking">');
