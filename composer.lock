@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94f13c90b1946998983750276cd38ea6",
+    "content-hash": "65ee5a233c3ec2e90da58608398e2afe",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -4710,16 +4710,16 @@
         },
         {
             "name": "ssch/typo3-rector",
-            "version": "v0.6.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabbelasichon/typo3-rector.git",
-                "reference": "f9e6e24a994c9c5b663394eeb8c687bbf8340548"
+                "reference": "906b3e8f3453816d7e643815200b2aff9d79e3a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabbelasichon/typo3-rector/zipball/f9e6e24a994c9c5b663394eeb8c687bbf8340548",
-                "reference": "f9e6e24a994c9c5b663394eeb8c687bbf8340548",
+                "url": "https://api.github.com/repos/sabbelasichon/typo3-rector/zipball/906b3e8f3453816d7e643815200b2aff9d79e3a6",
+                "reference": "906b3e8f3453816d7e643815200b2aff9d79e3a6",
                 "shasum": ""
             },
             "require": {
@@ -4757,7 +4757,7 @@
                 }
             ],
             "description": "Instant fixes for your TYPO3 code by using Rector.",
-            "time": "2020-11-17T23:23:01+00:00"
+            "time": "2020-11-20T23:27:25+00:00"
         },
         {
             "name": "symfony/config",
@@ -6061,7 +6061,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "ssch/typo3-rector": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

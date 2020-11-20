@@ -1,5 +1,7 @@
 <?php
 
+$isUserLoggedIn = $GLOBALS['TSFE']->sys_language_uid;
+
 $EM_CONF['legacy_extension'] = [
     'title' => 'A demo extension to upgrade with typo3-rector',
     'description' => '',

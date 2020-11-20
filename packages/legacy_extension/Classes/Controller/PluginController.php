@@ -25,6 +25,9 @@ final class PluginController extends ActionController
         $this->view->assign('inDevelopmentMode', GeneralUtility::getApplicationContext()->isDevelopment());
         $this->view->assign('language', $GLOBALS['TSFE']->sys_language_uid);
 
+        $this->getTypoScriptFrontendController()->sys_page->getDomainStartPage('dd');
+        $this->getTypoScriptFrontendController()->tmpl->getFileName('file.foo');
+
         $pageRenderer = GeneralUtility::makeInstance(PageRenderer::class);
         $pageRenderer->addMetaTag('<meta name="keywords" content="seo, search engine optimisation, search engine optimization, search engine ranking">');
     }
