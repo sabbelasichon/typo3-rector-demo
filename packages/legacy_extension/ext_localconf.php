@@ -13,3 +13,5 @@ if (!defined('TYPO3_MODE')) {
     [
         'Plugin' => 'some',
     ]);
+
+$GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY] = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY]);
