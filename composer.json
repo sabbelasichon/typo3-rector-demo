@@ -27,6 +27,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "ssch/typo3-rector": "dev-master"
+        "ssch/typo3-rector": "^0.7.0"
     }
 }

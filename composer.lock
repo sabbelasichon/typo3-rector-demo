@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65ee5a233c3ec2e90da58608398e2afe",
+    "content-hash": "fec919350d1dab1adbbacdf09d8fb2a6",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -3916,24 +3916,25 @@
                 "MIT"
             ],
             "description": "Kernel for small CLI applications",
+            "abandoned": "symplify/symplify-kernel",
             "time": "2020-11-14T20:12:17+00:00"
         },
         {
             "name": "migrify/php-config-printer",
-            "version": "0.3.59",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/migrify/php-config-printer.git",
-                "reference": "4c5fe6169c120a78974ccb750ae2c85430552fbc"
+                "reference": "a7d9d21cb34050aa808ccd35d2bedcd484fe1220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/4c5fe6169c120a78974ccb750ae2c85430552fbc",
-                "reference": "4c5fe6169c120a78974ccb750ae2c85430552fbc",
+                "url": "https://api.github.com/repos/migrify/php-config-printer/zipball/a7d9d21cb34050aa808ccd35d2bedcd484fe1220",
+                "reference": "a7d9d21cb34050aa808ccd35d2bedcd484fe1220",
                 "shasum": ""
             },
             "require": {
-                "migrify/migrify-kernel": "^0.4",
+                "migrify/migrify-kernel": "^0.4.2",
                 "nette/utils": "^3.1",
                 "nikic/php-parser": "^4.9",
                 "php": ">=7.2",
@@ -3941,7 +3942,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.5|^9.0",
-                "symplify/easy-testing": "^8.3.46"
+                "symplify/easy-testing": "^8.3.46|^9.0"
             },
             "type": "library",
             "autoload": {
@@ -3954,7 +3955,8 @@
                 "MIT"
             ],
             "description": "Print Symfony services array with configuration to to plain PHP file format thanks to this simple php-parser wrapper",
-            "time": "2020-11-12T11:42:36+00:00"
+            "abandoned": "symplify/php-config-printer",
+            "time": "2020-11-17T12:04:46+00:00"
         },
         {
             "name": "nette/finder",
@@ -4084,20 +4086,23 @@
         },
         {
             "name": "nette/utils",
-            "version": "v3.1.3",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "c09937fbb24987b2a41c6022ebe84f4f1b8eec0f"
+                "reference": "d0427c1811462dbb6c503143eabe5478b26685f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/c09937fbb24987b2a41c6022ebe84f4f1b8eec0f",
-                "reference": "c09937fbb24987b2a41c6022ebe84f4f1b8eec0f",
+                "url": "https://api.github.com/repos/nette/utils/zipball/d0427c1811462dbb6c503143eabe5478b26685f7",
+                "reference": "d0427c1811462dbb6c503143eabe5478b26685f7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.2 <8.1"
+            },
+            "conflict": {
+                "nette/di": "<3.0.6"
             },
             "require-dev": {
                 "nette/tester": "~2.0",
@@ -4116,7 +4121,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -4140,7 +4145,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🛠 Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+            "description": "🛠  Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
             "homepage": "https://nette.org",
             "keywords": [
                 "array",
@@ -4158,7 +4163,7 @@
                 "utility",
                 "validation"
             ],
-            "time": "2020-08-07T10:34:21+00:00"
+            "time": "2020-11-25T23:47:50+00:00"
         },
         {
             "name": "ondram/ci-detector",
@@ -4279,16 +4284,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.56",
+            "version": "0.12.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "007fd5d700c41e1bb27795fae15a2383f8fa4ba1"
+                "reference": "f9909d1d0c44b4cbaf72babcf80e8f14d6fdd55b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/007fd5d700c41e1bb27795fae15a2383f8fa4ba1",
-                "reference": "007fd5d700c41e1bb27795fae15a2383f8fa4ba1",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f9909d1d0c44b4cbaf72babcf80e8f14d6fdd55b",
+                "reference": "f9909d1d0c44b4cbaf72babcf80e8f14d6fdd55b",
                 "shasum": ""
             },
             "require": {
@@ -4331,7 +4336,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-16T22:59:18+00:00"
+            "time": "2020-11-21T12:53:28+00:00"
         },
         {
             "name": "phpstan/phpstan-phpunit",
@@ -4439,16 +4444,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.8.48",
+            "version": "0.8.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "84d2cc41d2526d84ef40e0faccbaf0bf0cbf38b9"
+                "reference": "9d7fa63bf879985a41656ac93ea3d8f01e40154d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/84d2cc41d2526d84ef40e0faccbaf0bf0cbf38b9",
-                "reference": "84d2cc41d2526d84ef40e0faccbaf0bf0cbf38b9",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/9d7fa63bf879985a41656ac93ea3d8f01e40154d",
+                "reference": "9d7fa63bf879985a41656ac93ea3d8f01e40154d",
                 "shasum": ""
             },
             "require": {
@@ -4457,7 +4462,7 @@
                 "doctrine/inflector": "^1.4|^2.0",
                 "ext-json": "*",
                 "jean85/pretty-package-versions": "^1.5.1",
-                "migrify/php-config-printer": "^0.3.52",
+                "migrify/php-config-printer": "^0.4",
                 "nette/robot-loader": "^3.2",
                 "nette/utils": "^3.1",
                 "nikic/php-parser": "4.10.2",
@@ -4474,13 +4479,13 @@
                 "symfony/finder": "^4.4.8|^5.1",
                 "symfony/http-kernel": "^4.4.8|^5.1",
                 "symfony/process": "^4.4.8|^5.1",
-                "symplify/autowire-array-parameter": "^8.3.48",
-                "symplify/composer-json-manipulator": "^8.3.48",
-                "symplify/console-color-diff": "^8.3.48",
-                "symplify/easy-testing": "^8.3.48",
-                "symplify/package-builder": "^8.3.48",
-                "symplify/set-config-resolver": "^8.3.48",
-                "symplify/smart-file-system": "^8.3.48",
+                "symplify/autowire-array-parameter": "8.3.48",
+                "symplify/composer-json-manipulator": "8.3.48",
+                "symplify/console-color-diff": "8.3.48",
+                "symplify/easy-testing": "8.3.48",
+                "symplify/package-builder": "8.3.48",
+                "symplify/set-config-resolver": "8.3.48",
+                "symplify/smart-file-system": "8.3.48",
                 "webmozart/assert": "^1.9"
             },
             "replace": {
@@ -4491,7 +4496,7 @@
             "require-dev": {
                 "cweagans/composer-patches": "^1.7",
                 "friendsofphp/php-cs-fixer": "^2.16",
-                "migrify/vendor-patches": "^0.3.52",
+                "migrify/vendor-patches": "^0.4",
                 "nette/application": "^3.0",
                 "nette/di": "^3.0",
                 "nette/forms": "^3.0",
@@ -4499,11 +4504,11 @@
                 "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpunit/phpunit": "^8.5|^9.2",
                 "psr/event-dispatcher": "^1.0",
-                "symplify/changelog-linker": "^8.3.48",
-                "symplify/easy-coding-standard": "^8.3.48",
-                "symplify/easy-testing": "^8.3.48",
-                "symplify/monorepo-builder": "^8.3.48",
-                "symplify/phpstan-extensions": "^8.3.48",
+                "symplify/changelog-linker": "8.3.48",
+                "symplify/easy-coding-standard": "8.3.48",
+                "symplify/easy-testing": "8.3.48",
+                "symplify/monorepo-builder": "8.3.48",
+                "symplify/phpstan-extensions": "8.3.48",
                 "tracy/tracy": "^2.7"
             },
             "bin": [
@@ -4617,7 +4622,8 @@
                     "Rector\\Transform\\": "rules/transform/src",
                     "Rector\\Twig\\": "rules/twig/src",
                     "Rector\\TypeDeclaration\\": "rules/type-declaration/src",
-                    "Rector\\VendorLocker\\": "packages/vendor-locker/src"
+                    "Rector\\VendorLocker\\": "packages/vendor-locker/src",
+                    "Rector\\Carbon\\": "rules/carbon/src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4650,7 +4656,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-02T19:01:31+00:00"
+            "time": "2020-11-14T20:25:20+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -4710,23 +4716,24 @@
         },
         {
             "name": "ssch/typo3-rector",
-            "version": "dev-master",
+            "version": "v0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabbelasichon/typo3-rector.git",
-                "reference": "906b3e8f3453816d7e643815200b2aff9d79e3a6"
+                "reference": "6fe758e3499d4d398d60470a45de6d33c01b54bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabbelasichon/typo3-rector/zipball/906b3e8f3453816d7e643815200b2aff9d79e3a6",
-                "reference": "906b3e8f3453816d7e643815200b2aff9d79e3a6",
+                "url": "https://api.github.com/repos/sabbelasichon/typo3-rector/zipball/6fe758e3499d4d398d60470a45de6d33c01b54bd",
+                "reference": "6fe758e3499d4d398d60470a45de6d33c01b54bd",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^3.1",
                 "php": "^7.2",
                 "phpstan/phpstan": "^0.12.52",
-                "rector/rector": "0.8.48"
+                "rector/rector": "0.8.52",
+                "symfony/var-exporter": "^5.1"
             },
             "require-dev": {
                 "captainhook/captainhook": "^5.4",
@@ -4757,7 +4764,7 @@
                 }
             ],
             "description": "Instant fixes for your TYPO3 code by using Rector.",
-            "time": "2020-11-20T23:27:25+00:00"
+            "time": "2020-11-25T22:40:27+00:00"
         },
         {
             "name": "symfony/config",
@@ -6061,9 +6068,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "ssch/typo3-rector": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
