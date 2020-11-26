@@ -1,10 +1,14 @@
 <?php
 
-if (!defined('TYPO3_MODE')) {
+declare(strict_types=1);
+
+use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
+
+if (! defined('TYPO3_MODE')) {
     die('Access denied.');
 }
 
-\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+ExtensionUtility::configurePlugin(
     'Ssch.' . $_EXTKEY,
     'FooBarBaz',
     [
@@ -14,4 +18,6 @@ if (!defined('TYPO3_MODE')) {
         'Plugin' => 'some',
     ]);
 
-$GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY] = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY]);
+$GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY] = unserialize(
+    $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY]
+);

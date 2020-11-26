@@ -1,6 +1,6 @@
 <?php
-declare(strict_types=1);
 
+declare(strict_types=1);
 
 namespace Ssch\LegacyExtension\ViewHelpers;
 
@@ -16,7 +16,6 @@ final class InArrayViewHelper extends AbstractViewHelper
 {
     /**
      * @param mixed $valueToCheckAgainst
-     * @param array $arrayToCheckAgainst
      *
      * @return bool
      */

@@ -1,12 +1,9 @@
 <?php
-declare(strict_types=1);
 
+declare(strict_types=1);
 
 namespace Ssch\LegacyExtension\Controller;
 
-use TYPO3\CMS\Backend\Utility\BackendUtility;
-use TYPO3\CMS\Core\Page\PageRenderer;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 /**
