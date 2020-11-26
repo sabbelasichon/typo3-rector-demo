@@ -1,6 +1,6 @@
 <?php
-declare(strict_types=1);
 
+declare(strict_types=1);
 
 namespace Ssch\LegacyExtension\Domain\ValueObject;
 
@@ -36,6 +36,6 @@ final class MyValueObject
 
     public function __toString()
     {
-        return $this->title.' '.$this->firstName.' '.$this->lastName;
+        return $this->title . ' ' . $this->firstName . ' ' . $this->lastName;
     }
 }

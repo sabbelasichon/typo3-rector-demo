@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $isUserLoggedIn = $GLOBALS['TSFE']->sys_language_uid;
 
 $EM_CONF['legacy_extension'] = [
@@ -16,7 +18,7 @@ $EM_CONF['legacy_extension'] = [
     'version' => '1.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-9.5.99'
+            'typo3' => '8.7.0-9.5.99',
         ],
         'conflicts' => [],
         'suggests' => [],

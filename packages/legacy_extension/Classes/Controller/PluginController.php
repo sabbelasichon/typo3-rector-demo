@@ -1,6 +1,6 @@
 <?php
-declare(strict_types=1);
 
+declare(strict_types=1);
 
 namespace Ssch\LegacyExtension\Controller;
 
@@ -29,7 +29,9 @@ final class PluginController extends ActionController
         $this->getTypoScriptFrontendController()->tmpl->getFileName('file.foo');
 
         $pageRenderer = GeneralUtility::makeInstance(PageRenderer::class);
-        $pageRenderer->addMetaTag('<meta name="keywords" content="seo, search engine optimisation, search engine optimization, search engine ranking">');
+        $pageRenderer->addMetaTag(
+            '<meta name="keywords" content="seo, search engine optimisation, search engine optimization, search engine ranking">'
+        );
     }
 
     private function getTypoScriptFrontendController(): TypoScriptFrontendController

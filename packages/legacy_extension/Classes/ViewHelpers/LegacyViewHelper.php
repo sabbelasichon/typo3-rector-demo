@@ -1,6 +1,6 @@
 <?php
-declare(strict_types=1);
 
+declare(strict_types=1);
 
 namespace Ssch\LegacyExtension\ViewHelpers;
 
@@ -21,8 +21,8 @@ final class LegacyViewHelper extends AbstractViewHelper
      */
     public function render($value = null)
     {
-        if ($value === null) {
-            $value =  $this->renderChildren();
+        if (null === $value) {
+            $value = $this->renderChildren();
         }
 
         // remove new line - does not matter in html anyway

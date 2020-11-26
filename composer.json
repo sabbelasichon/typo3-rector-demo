@@ -12,6 +12,12 @@
         "typo3/minimal": "^9.0",
         "ssch/legacy-extension": "^1.0"
     },
+    "config": {
+        "platform": {
+            "php": "7.2"
+        },
+        "sort-packages": true
+    },
     "license": "MIT",
     "authors": [
         {
@@ -27,6 +33,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "ssch/typo3-rector": "^0.7.0"
+        "ssch/typo3-rector": "^0.7.0",
+        "symplify/easy-coding-standard": "^8.3"
+    },
+    "scripts": {
+        "check-style": "vendor/bin/ecs check --ansi",
+        "fix-style": "vendor/bin/ecs check --fix --ansi"
     }
 }
