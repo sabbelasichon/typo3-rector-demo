@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Ssch\LegacyExtension\Controller;
 
+use Ssch\LegacyExtension\Domain\Model\LegacyModelEntity;
 use TYPO3\CMS\Core\Page\PageRenderer;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
@@ -32,6 +33,13 @@ final class PluginController extends ActionController
         $pageRenderer->addMetaTag(
             '<meta name="keywords" content="seo, search engine optimisation, search engine optimization, search engine ranking">'
         );
+    }
+
+    public function fooAction(LegacyModelEntity $entity = null)
+    {
+        if (is_null($entity)) {
+            $GLOBALS['TSFE']->pageNotFoundAndExit('LegacyModelEntity not found.');
+        }
     }
 
     private function getTypoScriptFrontendController(): TypoScriptFrontendController
