@@ -5122,16 +5122,16 @@
         },
         {
             "name": "ssch/typo3-rector",
-            "version": "v0.7.3",
+            "version": "v0.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabbelasichon/typo3-rector.git",
-                "reference": "30bb1cdb1cd3a82c9e06562027b7373df8480018"
+                "reference": "7c733d4513940a90fc0fe45068bfd59a440bd29d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabbelasichon/typo3-rector/zipball/30bb1cdb1cd3a82c9e06562027b7373df8480018",
-                "reference": "30bb1cdb1cd3a82c9e06562027b7373df8480018",
+                "url": "https://api.github.com/repos/sabbelasichon/typo3-rector/zipball/7c733d4513940a90fc0fe45068bfd59a440bd29d",
+                "reference": "7c733d4513940a90fc0fe45068bfd59a440bd29d",
                 "shasum": ""
             },
             "require": {
@@ -5170,7 +5170,7 @@
                 }
             ],
             "description": "Instant fixes for your TYPO3 code by using Rector.",
-            "time": "2020-11-30T23:20:35+00:00"
+            "time": "2020-12-01T14:09:48+00:00"
         },
         {
             "name": "symfony/config",
