@@ -1,14 +1,10 @@
 <?php
 
-declare(strict_types=1);
-
-use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
-
 if (! defined('TYPO3_MODE')) {
     die('Access denied.');
 }
 
-ExtensionUtility::configurePlugin(
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
     'Ssch.' . $_EXTKEY,
     'FooBarBaz',
     [

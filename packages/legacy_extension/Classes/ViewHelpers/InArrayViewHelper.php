@@ -16,6 +16,7 @@ final class InArrayViewHelper extends AbstractViewHelper
 {
     /**
      * @param mixed $valueToCheckAgainst
+     * @param array $arrayToCheckAgainst
      *
      * @return bool
      */

@@ -30,8 +30,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "ssch/typo3-rector": "^0.7.0",
-        "symplify/easy-coding-standard": "^8.3"
+        "ssch/custom-rectors": "dev-main",
+        "ssch/typo3-rector": "^0.8.0",
+        "symplify/easy-coding-standard": "^9.0"
     },
     "scripts": {
         "check-style": "vendor/bin/ecs check --ansi",

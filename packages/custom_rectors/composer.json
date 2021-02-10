@@ -1,0 +1,25 @@
+{
+  "name": "ssch/custom-rectors",
+  "description": "Custom rules for rector",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "schreibersebastian",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ssch\\CustomRectors\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ssch\\CustomRectors\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "ssch/typo3-rector": "^0.8.0"
+  }
+}
