@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssch\CustomRectors\Tests\Unit\Service;
+namespace Ssch\LegacyExtension\Tests\Unit\Service;
 
 use Iterator;
 use Ssch\LegacyExtension\Service\MyService;

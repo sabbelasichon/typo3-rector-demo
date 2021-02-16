@@ -25,7 +25,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Ssch\\LegacyExtension\\Tests": "Tests"
+      "Ssch\\LegacyExtension\\Tests\\": "Tests"
     }
   }
 }
