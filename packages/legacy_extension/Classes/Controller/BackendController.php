@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Ssch\LegacyExtension\Controller;
 
+use Ssch\LegacyExtension\Service\TranslatorInterface;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 
@@ -24,10 +25,20 @@ final class BackendController extends ActionController
      */
     protected $inject;
 
+    /**
+     * @var TranslatorInterface
+     */
+    private $translator;
+
+    public function injectTranslator(TranslatorInterface $translator): void
+    {
+        $this->translator = $translator;
+    }
+
+
     public function singleAction(): void
     {
         $pathToFile = PATH_site . 'foo/bar/baz.txt';
-
-        LocalizationUtility::translate('LLL:EXT:legacy_extension/Resources/Private/Language/locallang.xlf:search-text');
+        $this->translator->translate('LLL:EXT:legacy_extension/Resources/Private/Language/locallang.xlf:search-text');
     }
 }
