@@ -39,5 +39,10 @@
         "check-style": "vendor/bin/ecs check --ansi",
         "fix-style": "vendor/bin/ecs check --fix --ansi",
         "rector": "vendor/bin/typo3-rector rectify --dry-run --ansi"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ssch\\LegacyExtension\\Tests\\": "packages/legacy_extension/Tests"
+        }
     }
 }
