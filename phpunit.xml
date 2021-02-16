@@ -11,6 +11,7 @@
     <testsuites>
         <testsuite name="small">
             <directory>packages/custom_rectors/tests</directory>
+            <directory>packages/legacy_extension/Tests/Unit</directory>
         </testsuite>
     </testsuites>
 </phpunit>
