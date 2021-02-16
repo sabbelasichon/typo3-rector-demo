@@ -20,15 +20,8 @@ final class BackendController extends ActionController
      * @var \Ssch\LegacyExtension\Service\MyService
      * @var string
      * @inject
-     * @lazy
      */
     protected $inject;
-
-    /**
-     * @var \Ssch\LegacyExtension\Service\MyService
-     * @var Foo
-     */
-    protected $inject2;
 
     public function singleAction(): void
     {

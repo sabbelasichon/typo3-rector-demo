@@ -2,6 +2,7 @@
   "name": "ssch/custom-rectors",
   "description": "Custom rules for rector",
   "minimum-stability": "stable",
+  "version": "1.0",
   "license": "proprietary",
   "authors": [
     {
@@ -20,6 +21,6 @@
     }
   },
   "require": {
-    "ssch/typo3-rector": "^0.8.0"
+    "ssch/typo3-rector": "^0.9.0"
   }
 }

@@ -30,8 +30,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "ssch/custom-rectors": "dev-main",
-        "ssch/typo3-rector": "^0.8.0",
+        "ssch/custom-rectors": "^1.0",
+        "ssch/typo3-rector": "^0.9.0",
         "symplify/easy-coding-standard": "^9.0"
     },
     "scripts": {
