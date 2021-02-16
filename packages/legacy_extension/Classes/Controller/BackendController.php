@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Ssch\LegacyExtension\Controller;
 
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
+use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 
 /**
  * This file is part of the "https://github.com/sabbelasichon/typo3-rector-demo".
@@ -26,5 +27,7 @@ final class BackendController extends ActionController
     public function singleAction(): void
     {
         $pathToFile = PATH_site . 'foo/bar/baz.txt';
+
+        LocalizationUtility::translate('LLL:EXT:legacy_extension/Resources/Private/Language/locallang.xlf:search-text');
     }
 }
