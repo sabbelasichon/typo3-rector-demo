@@ -20,6 +20,8 @@ final class MyService
             return substr($string, strlen(self::FOO));
         }
 
+        $lower = mb_strtolower('NCA');
+
         return $string;
     }
 }
