@@ -31,7 +31,10 @@ final class ExampleRector extends AbstractRector
             return null;
         }
 
-        if ( ! $this->nodeTypeResolver->isMethodStaticCallOrClassMethodObjectType($node, new ObjectType(StringUtility::class))) {
+        if ( ! $this->nodeTypeResolver->isMethodStaticCallOrClassMethodObjectType(
+            $node,
+            new ObjectType(StringUtility::class)
+        )) {
             return null;
         }
 
