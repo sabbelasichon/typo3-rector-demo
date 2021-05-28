@@ -7,6 +7,7 @@ namespace Ssch\CustomRectors\Rector;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr\StaticCall;
+use PHPStan\Type\ObjectType;
 use Rector\Core\Rector\AbstractRector;
 use Rector\Core\ValueObject\PhpVersion;
 use Symplify\RuleDocGenerator\ValueObject\CodeSample\CodeSample;
@@ -30,7 +31,7 @@ final class ExampleRector extends AbstractRector
             return null;
         }
 
-        if ( ! $this->nodeTypeResolver->isMethodStaticCallOrClassMethodObjectType($node, StringUtility::class)) {
+        if ( ! $this->nodeTypeResolver->isMethodStaticCallOrClassMethodObjectType($node, new ObjectType(StringUtility::class))) {
             return null;
         }
 

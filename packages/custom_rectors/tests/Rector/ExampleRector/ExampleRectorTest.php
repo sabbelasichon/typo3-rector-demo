@@ -6,12 +6,11 @@ namespace Ssch\CustomRectors\Tests\Rector\ExampleRector;
 
 
 use Iterator;
-use Rector\Testing\PHPUnit\AbstractCommunityRectorTestCase;
+use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
-final class ExampleRectorTest extends AbstractCommunityRectorTestCase
+final class ExampleRectorTest extends AbstractRectorTestCase
 {
-
     /**
      * @dataProvider provideDataForTest()
      */
