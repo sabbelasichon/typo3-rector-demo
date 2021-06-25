@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "042b696b3cdedf6d0bc0383e97fa2892",
+    "content-hash": "2f6ed222044c97c5dce923c13dfe468f",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -1623,45 +1623,6 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
-        },
-        {
-            "name": "ssch/legacy-extension",
-            "version": "1.0.0",
-            "dist": {
-                "type": "path",
-                "url": "packages/legacy_extension",
-                "reference": "5e9ed970008af4ff8ca2661569c0fea92d7a2809"
-            },
-            "require": {
-                "typo3/cms-core": "*"
-            },
-            "replace": {
-                "legacy_extension": "self.version"
-            },
-            "type": "typo3-cms-extension",
-            "autoload": {
-                "psr-4": {
-                    "Ssch\\LegacyExtension\\": "Classes"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Ssch\\LegacyExtension\\Tests\\": "Tests"
-                }
-            },
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Schreiber",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A legacy extension",
-            "transport-options": {
-                "relative": true
-            }
         },
         {
             "name": "symfony/cache",
@@ -6981,42 +6942,6 @@
             "time": "2020-09-28T06:39:44+00:00"
         },
         {
-            "name": "ssch/custom-rectors",
-            "version": "1.0",
-            "dist": {
-                "type": "path",
-                "url": "packages/custom_rectors",
-                "reference": "38899b3de1d1b78c86db441ec3c4cf1d50af6678"
-            },
-            "require": {
-                "rector/rector": "^0.11.20"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ssch\\CustomRectors\\": "src"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Ssch\\CustomRectors\\Tests\\": "tests"
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "schreibersebastian",
-                    "email": "email@example.com"
-                }
-            ],
-            "description": "Custom rules for rector",
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
             "name": "symplify/easy-coding-standard",
             "version": "v9.3.26",
             "source": {
@@ -7118,11 +7043,13 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
-    "prefer-stable": true,
+    "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "7.4.*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
 }
