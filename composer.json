@@ -9,8 +9,7 @@
     "description": "Demo for typo3-rector",
     "type": "project",
     "require": {
-        "typo3-ter/news": "^5.0",
-        "typo3/minimal": "^9.0",
+        "typo3/minimal": "^10.0",
         "ssch/legacy-extension": "^1.0"
     },
     "config": {
