@@ -1111,20 +1111,20 @@
         },
         {
             "name": "psr/cache",
-            "version": "2.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/cache.git",
-                "reference": "213f9dbc5b9bfbc4f8db86d2838dc968752ce13b"
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/cache/zipball/213f9dbc5b9bfbc4f8db86d2838dc968752ce13b",
-                "reference": "213f9dbc5b9bfbc4f8db86d2838dc968752ce13b",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.0"
+                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
@@ -1144,7 +1144,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for caching libraries",
@@ -1154,9 +1154,9 @@
                 "psr-6"
             ],
             "support": {
-                "source": "https://github.com/php-fig/cache/tree/2.0.0"
+                "source": "https://github.com/php-fig/cache/tree/master"
             },
-            "time": "2021-02-03T23:23:37+00:00"
+            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/container",
@@ -5473,16 +5473,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.88",
+            "version": "0.12.90",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "464d1a81af49409c41074aa6640ed0c4cbd9bb68"
+                "reference": "f0e4b56630fc3d4eb5be86606d07212ac212ede4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/464d1a81af49409c41074aa6640ed0c4cbd9bb68",
-                "reference": "464d1a81af49409c41074aa6640ed0c4cbd9bb68",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f0e4b56630fc3d4eb5be86606d07212ac212ede4",
+                "reference": "f0e4b56630fc3d4eb5be86606d07212ac212ede4",
                 "shasum": ""
             },
             "require": {
@@ -5513,11 +5513,15 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.88"
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.90"
             },
             "funding": [
                 {
                     "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
                     "type": "github"
                 },
                 {
@@ -5529,7 +5533,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-17T12:24:49+00:00"
+            "time": "2021-06-18T07:15:38+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -5954,21 +5958,21 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.11.20",
+            "version": "0.11.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "eb2f72236ad821dd9f19144a05d8b685480fd9a2"
+                "reference": "b7a438ec97b40e7faebfcdc1b526c8b8adc8f7c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/eb2f72236ad821dd9f19144a05d8b685480fd9a2",
-                "reference": "eb2f72236ad821dd9f19144a05d8b685480fd9a2",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/b7a438ec97b40e7faebfcdc1b526c8b8adc8f7c0",
+                "reference": "b7a438ec97b40e7faebfcdc1b526c8b8adc8f7c0",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1|^8.0",
-                "phpstan/phpstan": ">=0.12.86 <=0.12.88"
+                "phpstan/phpstan": ">=0.12.86 <=0.12.90"
             },
             "conflict": {
                 "phpstan/phpdoc-parser": "<=0.5.3",
@@ -6002,7 +6006,7 @@
             "description": "Prefixed and PHP 7.1 downgraded version of rector/rector",
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.11.20"
+                "source": "https://github.com/rectorphp/rector/tree/0.11.23"
             },
             "funding": [
                 {
@@ -6010,7 +6014,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-13T23:57:37+00:00"
+            "time": "2021-06-24T13:22:27+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -6982,10 +6986,10 @@
             "dist": {
                 "type": "path",
                 "url": "packages/custom_rectors",
-                "reference": "557e2718b69b05d681ee50c73a25205ac734a1be"
+                "reference": "38899b3de1d1b78c86db441ec3c4cf1d50af6678"
             },
             "require": {
-                "rector/rector": "0.11.20"
+                "rector/rector": "^0.11.20"
             },
             "type": "library",
             "autoload": {
