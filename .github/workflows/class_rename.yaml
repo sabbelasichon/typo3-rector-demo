@@ -5,9 +5,8 @@ on:
     push: null
 
 jobs:
-    runs-on: ubuntu-latest
-
     tests:
+        runs-on: ubuntu-latest
         steps:
             -   uses: actions/checkout@v2
 
