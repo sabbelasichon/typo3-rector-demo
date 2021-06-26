@@ -1,6 +1,5 @@
 <?php
 
 return [
-    'asdf' => 'blah',
-    'TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper' => 'blah',
+    'TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper' => \App\ExistingHelper::class,
 ];
