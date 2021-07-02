@@ -27,7 +27,7 @@ final class MyServiceTest extends TestCase
      */
     public function removeFooFromTheBeginningOfTheString(string $input, string $expected): void
     {
-        $this->assertSame($expected, $this->subject->removeFooFromTheBeginningOfTheStringCaseInsensitive($input));
+        self::assertSame($expected, $this->subject->removeFooFromTheBeginningOfTheStringCaseInsensitive($input));
     }
 
     public function dataProvider(): Iterator

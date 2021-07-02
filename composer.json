@@ -9,7 +9,7 @@
     "description": "Demo for typo3-rector",
     "type": "project",
     "require": {
-        "typo3/minimal": "^10.0",
+        "typo3/minimal": "^9.0",
         "ssch/legacy-extension": "^1.0"
     },
     "config": {
@@ -30,7 +30,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "phpunit/phpunit": "^9.0",
+        "typo3/testing-framework": "^4.0",
         "ssch/custom-rectors": "^1.0",
         "symplify/easy-coding-standard": "^9.0"
     },
